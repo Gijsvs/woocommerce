@@ -91,7 +91,7 @@ class WC_API_Taxes extends WC_API_Resource {
 			$filter['tax_rate_class'] = $class;
 		}
 
-		$filter['page'] = $page;
+		$filter['paged'] = $page;
 
 		$query = $this->query_tax_rates( $filter );
 
